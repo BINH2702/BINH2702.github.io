@@ -275,8 +275,25 @@ p { margin: 0 0 16px; }
 }
 
 .paper-venue { color: #50565c; }
+.paper-summary {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: .92rem;
+  line-height: 1.58;
+}
 .paper-links { margin-top: 6px; font-size: .9rem; }
 .paper-links a { margin-right: 12px; }
+
+.section-intro {
+  max-width: 680px;
+  margin-bottom: 23px;
+  color: #555c63;
+}
+
+.more-link {
+  margin-top: 4px;
+  font-size: .92rem;
+}
 
 .site-footer {
   border-top: 1px solid var(--line);
