@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://binh2702.github.io/sitemap.xml

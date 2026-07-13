@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nguyen Trong Binh is a machine learning researcher working on continual learning, federated learning, domain generalization, recursive reasoning, and reliable AI.">
+  <meta name="author" content="Nguyen Trong Binh">
+  <meta name="theme-color" content="#f4f7f5">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nguyen Trong Binh — Machine Learning Researcher">
+  <meta property="og:description" content="Research in continual learning, federated learning, domain generalization, recursive reasoning, and reliable AI.">
+  <meta property="og:image" content="assets/profile.jpg">
+  <meta property="og:url" content="https://binh2702.github.io/">
+  <meta name="twitter:card" content="summary">
+  <title>Nguyen Trong Binh — Machine Learning Researcher</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/profile.jpg" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (() => {
+      const saved = localStorage.getItem('theme');
+      const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = saved || preferred;
+    })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nguyen Trong Binh",
+    "alternateName": "Trong-Binh Nguyen",
+    "url": "https://binh2702.github.io/",
+    "image": "https://binh2702.github.io/assets/profile.jpg",
+    "jobTitle": "Machine Learning Researcher",
+    "affiliation": [
+      {"@type": "Organization", "name": "VinUniversity"},
+      {"@type": "CollegeOrUniversity", "name": "The Chinese University of Hong Kong"}
+    ],
+    "sameAs": [
+      "https://github.com/BINH2702",
+      "https://scholar.google.com/citations?user=18zS-GQAAAAJ&hl=en",
+      "https://www.linkedin.com/in/binh-nguyen-a91b99265/",
+      "https://orcid.org/0009-0005-5442-9376"
+    ],
+    "knowsAbout": [
+      "Continual Learning",
+      "Federated Learning",
+      "Domain Generalization",
+      "Latent Reasoning",
+      "Robot Learning"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="Nguyen Trong Binh, home">
+        <span class="brand-mark" aria-hidden="true">NB</span>
+        <span class="brand-name">Nguyen Trong Binh</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cv" href="assets/nguyen-trong-binh-cv.pdf">CV</a>
+        <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+          <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.4 8.4 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Incoming PhD student at CUHK · 2026</p>
+        <h1 id="hero-title">Building learning systems that <em>adapt</em> without forgetting.</h1>
+        <p class="hero-intro">
+          I am <strong>Nguyen Trong Binh</strong>, a machine learning researcher and incoming PhD student in Systems Engineering and Engineering Management at The Chinese University of Hong Kong. I study continual learning, reliable model adaptation, and iterative reasoning systems.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#research">Explore my research</a>
+          <a class="button button-secondary" href="assets/nguyen-trong-binh-cv.pdf">Download CV <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-links" aria-label="Profile links">
+          <a href="mailto:binh.nt6@vinuni.edu.vn">Email</a>
+          <a href="https://github.com/BINH2702" rel="me">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=18zS-GQAAAAJ&hl=en" rel="me">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/binh-nguyen-a91b99265/" rel="me">LinkedIn</a>
+        </div>
+      </div>
+
+      <aside class="profile-card reveal" aria-label="Profile summary">
+        <div class="portrait-wrap">
+          <img src="assets/profile.jpg" width="720" height="720" alt="Nguyen Trong Binh outdoors" fetchpriority="high">
+          <div class="portrait-grid" aria-hidden="true"></div>
+        </div>
+        <div class="profile-card-body">
+          <div>
+            <p class="profile-kicker">Currently</p>
+            <p class="profile-title">Research Assistant</p>
+            <p class="profile-subtitle">VinUniversity · Hanoi, Vietnam</p>
+          </div>
+          <div class="profile-divider"></div>
+          <div class="profile-meta">
+            <span>Continual learning</span>
+            <span>Reliable adaptation</span>
+            <span>Federated learning</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="news-band" aria-labelledby="news-title">
+      <div class="section-shell news-layout">
+        <div class="section-label-wrap">
+          <p class="section-label" id="news-title">Recent news</p>
+        </div>
+        <div class="news-list">
+          <article class="news-item reveal">
+            <time datetime="2026-07">Jul 2026</time>
+            <p>Preparing to join <strong>The Chinese University of Hong Kong</strong> as a PhD student.</p>
+          </article>
+          <article class="news-item reveal">
+            <time datetime="2026">2026</time>
+            <p>Joined <strong>VinUniversity</strong> as a research assistant, studying continual low-rank adaptation.</p>
+          </article>
+          <article class="news-item reveal">
+            <time datetime="2025-01">Jan 2025</time>
+            <p><strong>FedOMG</strong> was accepted to ICLR 2025.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="section-index">01</p>
+        <div>
+          <p class="section-label">About</p>
+          <h2 id="about-title">Research across changing distributions, tasks, and reasoning steps.</h2>
+        </div>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="lead">
+            My goal is to build AI systems that continue learning after deployment while preserving what made them useful in the first place.
+          </p>
+          <p>
+            My earlier work studied personalized federated learning and domain generalization under decentralized data. I am now interested in how models can update efficiently, retain internal reasoning processes, and remain reliable when tasks, environments, or data distributions change.
+          </p>
+          <p>
+            I enjoy research that connects optimization, representation learning, and practical systems—especially when a method can be both theoretically motivated and experimentally testable.
+          </p>
+        </div>
+        <dl class="facts-panel reveal">
+          <div>
+            <dt>Research areas</dt>
+            <dd>Continual learning, federated learning, domain generalization, latent reasoning</dd>
+          </div>
+          <div>
+            <dt>Methods</dt>
+            <dd>PyTorch, optimization, representation analysis, empirical evaluation</dd>
+          </div>
+          <div>
+            <dt>Open to</dt>
+            <dd>Research collaborations, reading groups, and reproducible ML projects</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="content-section research-section" id="research" aria-labelledby="research-title">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <p class="section-index">02</p>
+          <div>
+            <p class="section-label">Research</p>
+            <h2 id="research-title">Current directions</h2>
+          </div>
+        </div>
+
+        <div class="research-grid">
+          <article class="research-card reveal">
+            <div class="card-number">01</div>
+            <h3>Continual learning &amp; efficient adaptation</h3>
+            <p>Methods that update models over a stream of tasks while controlling catastrophic forgetting, computation, and memory.</p>
+            <ul class="tag-list" aria-label="Topics">
+              <li>Low-rank adaptation</li><li>Replay</li><li>Forgetting diagnostics</li>
+            </ul>
+          </article>
+          <article class="research-card reveal">
+            <div class="card-number">02</div>
+            <h3>Recursive &amp; latent reasoning</h3>
+            <p>Understanding how looped models preserve useful internal dynamics and reasoning procedures as their parameters change.</p>
+            <ul class="tag-list" aria-label="Topics">
+              <li>Looped models</li><li>Hidden states</li><li>Process retention</li>
+            </ul>
+          </article>
+          <article class="research-card reveal">
+            <div class="card-number">03</div>
+            <h3>Federated domain generalization</h3>
+            <p>Learning models that transfer to unseen domains when training data remain distributed across privacy-constrained clients.</p>
+            <ul class="tag-list" aria-label="Topics">
+              <li>Federated learning</li><li>Gradient matching</li><li>Distribution shift</li>
+            </ul>
+          </article>
+          <article class="research-card reveal">
+            <div class="card-number">04</div>
+            <h3>Reliable embodied learning</h3>
+            <p>Longer-term work on adaptation and safety for vision-language-action systems operating in changing environments.</p>
+            <ul class="tag-list" aria-label="Topics">
+              <li>Robot learning</li><li>VLA models</li><li>Safety</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading reveal">
+        <p class="section-index">03</p>
+        <div>
+          <p class="section-label">Publications</p>
+          <h2 id="publications-title">Selected work</h2>
+        </div>
+      </div>
+
+      <div class="publication-list">
+        <article class="publication reveal">
+          <div class="publication-year">2025</div>
+          <div class="publication-body">
+            <div class="publication-meta"><span class="venue-badge">ICLR 2025</span><span>Conference paper</span></div>
+            <h3>Federated Domain Generalization with Data-free On-server Gradient Matching</h3>
+            <p class="authors"><strong>Trong-Binh Nguyen</strong>, Minh-Duong Nguyen, Jinsun Park, Quoc-Viet Pham, Won-Joo Hwang</p>
+            <p class="publication-summary">FedOMG finds a server-side gradient direction that captures information shared across distributed domains without transmitting client data or adding communication overhead.</p>
+            <div class="publication-actions">
+              <a href="https://openreview.net/forum?id=8TERgu1Lb2">OpenReview</a>
+              <a href="https://arxiv.org/abs/2501.14653">arXiv</a>
+              <details>
+                <summary>BibTeX</summary>
+                <div class="bibtex-wrap">
+                  <pre><code>@inproceedings{nguyen2025fedomg,
+  title={Federated Domain Generalization with Data-free On-server Gradient Matching},
+  author={Nguyen, Trong-Binh and Nguyen, Minh-Duong and Park, Jinsun and Pham, Quoc-Viet and Hwang, Won-Joo},
+  booktitle={International Conference on Learning Representations},
+  year={2025}
+}</code></pre>
+                  <button class="copy-bib" type="button">Copy</button>
+                </div>
+              </details>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication reveal">
+          <div class="publication-year">2023</div>
+          <div class="publication-body">
+            <div class="publication-meta"><span class="venue-badge">ICISN 2023</span><span>Conference paper · Undergraduate thesis</span></div>
+            <h3>Personal Federated Learning via Momentum Target with Self-Improvement</h3>
+            <p class="authors"><strong>T-Binh Nguyen</strong>, H-Khoi Do, M-Duong Nguyen, T-Hoa Nguyen</p>
+            <p class="publication-summary">A personalized federated learning approach that uses a momentum target and knowledge distillation to improve a meta-learner under heterogeneous client data.</p>
+            <div class="publication-actions">
+              <a href="https://link.springer.com/chapter/10.1007/978-981-99-4725-6_31">Springer</a>
+              <a href="https://doi.org/10.1007/978-981-99-4725-6_31">DOI</a>
+              <details>
+                <summary>BibTeX</summary>
+                <div class="bibtex-wrap">
+                  <pre><code>@inproceedings{nguyen2023personal,
+  title={Personal Federated Learning via Momentum Target with Self-Improvement},
+  author={Nguyen, T-Binh and Do, H-Khoi and Nguyen, M-Duong and Nguyen, T-Hoa},
+  booktitle={Intelligent Systems and Networks},
+  pages={247--253},
+  year={2023},
+  publisher={Springer}
+}</code></pre>
+                  <button class="copy-bib" type="button">Copy</button>
+                </div>
+              </details>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="publication-note reveal">For the latest citation information, see my <a href="https://scholar.google.com/citations?user=18zS-GQAAAAJ&hl=en">Google Scholar profile</a>.</p>
+    </section>
+
+    <section class="content-section experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <p class="section-index">04</p>
+          <div>
+            <p class="section-label">Experience</p>
+            <h2 id="experience-title">Research journey</h2>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2026 — Present</div>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <p class="timeline-type">Research Assistant</p>
+              <h3>VinUniversity</h3>
+              <p class="timeline-location">Hanoi, Vietnam · Supervisor: Asst. Prof. Nguyen Tuan Binh</p>
+              <p>Investigating continual low-rank adaptation methods for efficient model updates.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2023 — 2025</div>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <p class="timeline-type">Research Assistant</p>
+              <h3>Pusan National University</h3>
+              <p class="timeline-location">Busan, South Korea · Supervisor: Prof. Won-Joo Hwang</p>
+              <p>Worked on federated domain generalization and co-authored the ICLR 2025 paper on data-free server-side gradient matching.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2020 — 2023</div>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <p class="timeline-type">Research Assistant</p>
+              <h3>Hanoi University of Science and Technology</h3>
+              <p class="timeline-location">Hanoi, Vietnam · Supervisor: Assoc. Prof. Nguyen Tien Hoa</p>
+              <p>Studied optimization for personalized federated learning.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="credentials-grid">
+          <section class="credential-card reveal" aria-labelledby="education-title">
+            <p class="section-label">Education</p>
+            <h3 id="education-title">Academic training</h3>
+            <div class="credential-row">
+              <span class="credential-year">2026 —</span>
+              <div><strong>PhD, Systems Engineering &amp; Engineering Management</strong><span>The Chinese University of Hong Kong · Incoming</span></div>
+            </div>
+            <div class="credential-row">
+              <span class="credential-year">2018 — 2023</span>
+              <div><strong>B.S., Electronics &amp; Telecommunications</strong><span>Hanoi University of Science and Technology · GPA 3.17/4.0</span></div>
+            </div>
+          </section>
+
+          <section class="credential-card reveal" aria-labelledby="service-title">
+            <p class="section-label">Service &amp; recognition</p>
+            <h3 id="service-title">Academic community</h3>
+            <div class="credential-row">
+              <span class="credential-year">Reviewer</span>
+              <div><strong>IEEE journals</strong><span>Transactions on Network Science and Engineering; Transactions on Image Processing</span></div>
+            </div>
+            <div class="credential-row">
+              <span class="credential-year">2018</span>
+              <div><strong>Consolation Prize</strong><span>Vietnam National Mathematics Olympiad for Students</span></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-shell contact-layout reveal">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2 id="contact-title">Let’s discuss research.</h2>
+          <p>I welcome conversations about continual learning, model adaptation, federated learning, and reproducible machine learning research.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-light" href="mailto:binh.nt6@vinuni.edu.vn">binh.nt6@vinuni.edu.vn</a>
+          <div class="contact-socials">
+            <a href="https://github.com/BINH2702">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=18zS-GQAAAAJ&hl=en">Scholar</a>
+            <a href="https://www.linkedin.com/in/binh-nguyen-a91b99265/">LinkedIn</a>
+            <a href="https://orcid.org/0009-0005-5442-9376">ORCID</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-layout">
+      <p>© <span id="year"></span> Nguyen Trong Binh.</p>
+      <p>Built as a lightweight static site for GitHub Pages.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
