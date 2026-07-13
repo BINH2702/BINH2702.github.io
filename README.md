@@ -31,7 +31,7 @@ Review these entries because they were assembled from the supplied CV and existi
 - Current VinUniversity position
 - Research-interest descriptions
 - Google Scholar, LinkedIn, and ORCID links
-- Public email address
+- Public email address (`trongbinh2702@gmail.com`)
 
 ## Local preview
 
