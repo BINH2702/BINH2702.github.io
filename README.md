@@ -1,20 +1,18 @@
-# Nguyen Trong Binh — Personal Academic Website
+# Nguyen Trong Binh — Academic Website
 
-A minimal static academic website for GitHub Pages.
+A lightweight academic website for GitHub Pages.
 
-## Publish on GitHub Pages
+## Publish
 
-1. Create a public GitHub repository named `BINH2702.github.io`.
-2. Upload all files from this folder to the repository root.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**, then choose `main` and `/(root)`.
-5. The website will be available at `https://binh2702.github.io/`.
+1. Create a public repository named `BINH2702.github.io`.
+2. Upload every file in this folder to the repository root.
+3. In **Settings → Pages**, choose **Deploy from a branch**, `main`, and `/(root)`.
+4. The website will be available at `https://binh2702.github.io/`.
 
-## Edit the website
+## Edit
 
-- Main content: `index.html`
-- Design: `styles.css`
-- Profile photo: `assets/profile.jpg`
+- Main biography and curriculum: `index.html`
+- Publication list: `publications.html`
+- Visual styling: `styles.css`
+- Profile image: `assets/profile.jpg`
 - CV: `assets/nguyen-trong-binh-cv.pdf`
-
-No build system, package installation, or JavaScript framework is required.
