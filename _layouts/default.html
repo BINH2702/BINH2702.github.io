@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 | default: 'Blog of Nguyen Trong Binh.' }}">
+  <meta name="author" content="Nguyen Trong Binh">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}Nguyen Trong Binh</title>
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="{{ '/' | relative_url }}">Nguyen Trong Binh</a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}">About</a>
+        <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+        <a href="{{ '/blog/' | relative_url }}" aria-current="page">Blog</a>
+        <a href="{{ '/assets/nguyen-trong-binh-cv.pdf' | relative_url }}">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="blog-main" id="main-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© {{ site.time | date: '%Y' }} Nguyen Trong Binh.</p>
+      <p class="footer-links">Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+</body>
+</html>

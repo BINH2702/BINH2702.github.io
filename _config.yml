@@ -1,0 +1,19 @@
+# Jekyll settings. GitHub Pages reads this file and builds the site.
+title: Nguyen Trong Binh
+url: https://binh2702.github.io
+markdown: kramdown
+
+# Each post gets a clean address like /blog/2026/11/16/welcome-to-my-blog/
+permalink: /blog/:year/:month/:day/:title/
+
+# Files that should not be published on the website
+exclude:
+  - README.md
+
+# Every file in _posts automatically uses the post layout
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
